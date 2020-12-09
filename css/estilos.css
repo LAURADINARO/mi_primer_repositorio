@@ -1,0 +1,146 @@
+.col-lg-12{padding-right: 0px; padding-left: 0px;}
+.bg-light{
+  background-color: #466F75!important;
+}
+
+
+/*Adaptación para celular*/
+.seccion02--modificada{
+  background-color: #FDF5E8;
+}
+@media(max-width: 768px){
+  .seccion02--modificada{
+    background: #CEAC92;
+  }
+}
+
+
+/*Footer estilos*/
+footer {
+  padding: 40px 0;
+  color: white;
+  background: #466F75;
+}
+
+footer li {
+  float: left;
+  padding: 0 10px;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  float: right;
+}
+
+
+
+/*Galería estilos*/
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+/*Animación de entrada ZoomIn*/
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+
+
+
+
+
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideOutRight {
+  0% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  100% {
+  visibility: hidden;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  }
+  }
+  @keyframes slideOutRight {
+  0% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  100% {
+  visibility: hidden;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  }
+  } 
+×
+
+
+
+
+
+
+
